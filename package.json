@@ -1,0 +1,31 @@
+{
+    "name": "wordle-solver",
+    "version": "1.0.0",
+    "description": "A simple wordle solver using webdriverio",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "solve": "node solveWordle.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/samvarcoe/wordle-solver.git"
+    },
+    "keywords": [
+        "wordle",
+        "webdriverio",
+        "automation"
+    ],
+    "author": "Sam Varcoe",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/samvarcoe/wordle-solver/issues"
+    },
+    "homepage": "https://github.com/samvarcoe/wordle-solver#readme",
+    "dependencies": {
+        "webdriverio": "^7.16.13"
+    },
+    "devDependencies": {
+        "eslint": "^8.7.0"
+    }
+}
