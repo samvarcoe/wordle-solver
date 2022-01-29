@@ -2,10 +2,10 @@
     "name": "wordle-solver",
     "version": "1.0.0",
     "description": "A simple wordle solver using webdriverio",
-    "main": "index.js",
+    "main": "wordle.js",
     "type": "module",
     "scripts": {
-      "solve": "node solveWordle.js"
+        "solve": "node solve.js"
     },
     "repository": {
         "type": "git",
